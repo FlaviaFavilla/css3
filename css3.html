@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+  <html lang="IT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="sito di Flavia del corso Engim" />
+  <meta name="keywords" content="Flavia, Engim, corso">
+  <meta name="robots" content="nofollow">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+  <title>Box Model</title>
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch|Permanent+Marker|Marck+Script" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1>CSS3 ADVANCED</h1>
+
+  <section id="box-decoration-break">
+    <h1>box-decoration-break</h1>
+    <p>
+      The box-decoration-break property lets you control how box decorations are drawn across the fragments of a "broken" element.
+      An element can break into fragments at the end of a line, over columns, or at page breaks. <br />
+      The box decoration properties controlled by box-decoration-break are:
+      background (and its sub-properties), border, border-radius, border-image, box-shadow, margin, and padding.
+    </p>
+
+    <div class="test">
+      <p>
+        box-decoration-break :
+          <button>clone</button><button>slice</button>
+      </p>
+      <h3>Span with Line Breaks</h3>
+      <div class="boxbreak">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas architecto est voluptatibus debitis quibusdam incidunt labore veritatis explicabo quo?</span>
+      </div>
+
+      <h3>Paragraph Across Columns</h3>
+      <div class="columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas architecto est voluptatibus debitis quibusdam incidunt labore veritatis explicabo quo?</p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+    <section id="background-blend-mode">
+      <h1><a href="https://css-tricks.com/almanac/properties/b/background-blend-mode/" target="_blank">background-blend-mode</a></h1>
+      <p>
+        The background-blend-mode property defines how an element's background-image should blend with its background-color. <br />
+      </p>
+      <p>
+        .container {<br />
+          background-image: url('image.jpg');<br />
+          background-color: red;<br />
+          background-blend-mode: screen;<br />
+        }
+      </p>
+
+      <div class="test">
+        <p>
+          background-blend-mode :
+            <button>normal</button>
+            <button>multiply</button>
+            <button>screen</button>
+        </p>
+        <p>
+          background-color :
+            <button>clone</button><button>slice</button>
+        </p>
+        <div class="">
+          <img src="img/imgGrande.jpg" />
+        </div>
+      </div>
+
+
+    </section>
+
+  <script src="js/javascript.js" type="text/javascript"></script>
+
+</body>
+</html>
